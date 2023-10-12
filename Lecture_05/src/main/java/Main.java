@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) throws InterruptedException{
         // подключаем chrome driver, говорим системе, где находится инструмент,
         // с помощью которого будем взаимодействовать с браузером
-        System.setProperty("webdriver.chrome.driver", "D:\\Geek Brains 2022\\UnitTest\\Selenium\\chromedriver_win32\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "D:\\Geek Brains 2022\\UnitTest\\Selenium\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chromedriver", "D:\\Geek Brains 2022\\UnitTest\\Selenium\\chromedriver_win32\\chromedriver.exe");
         // создаем экземпляр chrome драйвера
         WebDriver driver = new ChromeDriver();
         // запрашиваем главную страницу гугла
