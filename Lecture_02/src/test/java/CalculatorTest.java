@@ -48,7 +48,6 @@ public class CalculatorTest {
         assertThatThrownBy(() -> calculator.calculation(8,2,'_'))
                 .isInstanceOf(IllegalStateException.class);
     }
-
     @Test
     void getOperandCompletesCorrectlyWithNumbers() {
         // Создаем тестовое значение
